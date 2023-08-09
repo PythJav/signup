@@ -1,0 +1,86 @@
+:root{
+    appearance: none;
+}
+    
+    body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* .img{
+    width: 100%;
+    height: 100%;
+} */
+
+left{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    background-image: url(images/green.jpg) ;
+    background-repeat: no-repeat; 
+    background-size:     cover;
+}
+.text{
+    font-size: 35px;
+    color: white;
+}
+
+right{
+    
+    width: 70%;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo{
+    position: absolute;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    top:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotext{
+    color: white;
+}
+
+button{
+    width: 50px;
+    height:30px;
+    background-color:#596D48;
+    color: white;
+}
+
+.logoimg{
+    height: 100%;
+    width: 20%;
+}
+input:focus{
+    outline: none !important;
+    border: 2px solid blue;
+
+}
+
+
+.top{
+    height: 30%;
+}
+span{
+
+    text-decoration: underline;
+}
+leftfoot{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
