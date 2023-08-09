@@ -3,6 +3,12 @@
     --leftmarg :40px;
 }
     
+@font-face {
+    font-family: norse;
+    src: url(/fonts/Norse-Bold.otf) format("opentype");
+  }
+
+
     body{
     display: flex;
     width: 100vw;
@@ -64,6 +70,7 @@ form{
 
 .logotext{
     color: white;
+    font-family: norse;
 }
 
 button{
