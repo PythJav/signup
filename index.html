@@ -27,16 +27,20 @@
 </div>
         <div class="midlayer">
 
-        <form action="">
+        <form id="myform" action="">
+            <fhead>Lets do this</fhead>
             <frow>
+                <name>
                 <label for="fname">First Name</label>
             <input required type="text" id="fname">
+        </name>
     
-            <label for="lname">Last Name</label>
+        <name><label for="lname">Last Name</label>
             <input required type="text" id="lname">
+        </name>
     
             </frow>
-    
+      
             <srow>
                 <label for="email">Email</label>
                 <input required type="email" id="email">
@@ -52,12 +56,12 @@
             <input required type="password" id="cpass">
             </trow>
     
-           <button type="submit">Submit</button>
+           
         </form>
-    
+       
 
         </div>
-
+        <button type="submit" form="myform">Submit</button>
     </right>
     
 </body>

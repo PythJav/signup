@@ -27,9 +27,16 @@ left{
 }
 
 right{
-    
+    /* padding-left: 50px; */
     width: 70%;
     
+}
+frow,srow,trow{
+    display: flex;
+}
+name{
+    display: flex;
+    flex-direction: column;
 }
 form{
     display: flex;
@@ -53,15 +60,20 @@ form{
 }
 
 button{
-    width: 50px;
+    width: 100px;
     height:30px;
     background-color:#596D48;
     color: white;
+    border-radius: ;
 }
 
 .logoimg{
     height: 100%;
     width: 20%;
+}
+
+input{
+    width: 50px;
 }
 input:focus{
     outline: none !important;
@@ -83,4 +95,15 @@ leftfoot{
     width: 100%;
     text-align: center;
     color: white;
+}
+
+
+.midlayer{
+    background-color: rgb(201, 239, 226);
+    padding: 20px;
+    border-radius: 5px;
+}
+fhead{
+    font-size: 20px;
+    font-weight: bold;
 }
