@@ -10,3 +10,15 @@ cpass.addEventListener('keyup', (e) => {
 
     }
 });
+
+function jac(){
+
+
+    document.getElementsByTagName("left")[0].style.backgroundImage ="url('images/jacob.jpg')";
+}
+
+function edw(){
+
+
+    document.getElementsByTagName("left")[0].style.backgroundImage ="url('images/edw.jpg')";
+}
