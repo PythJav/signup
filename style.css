@@ -71,6 +71,7 @@ form{
 .logotext{
     color: white;
     font-family: norse;
+    font-size: 62px;
 }
 
 button{
@@ -84,7 +85,7 @@ button{
 
 .logoimg{
     height: 100%;
-    width: 20%;
+    width: auto;
 }
 
 input{
